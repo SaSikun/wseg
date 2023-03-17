@@ -55,10 +55,10 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
 ### Step1: Initial Seed Generation with Contrastive Learning.
 1. Contrast train.
    ```
-   python contrast_train.py  
-     --weights $pretrained_model 
-     --voc12_root VOC2012 
-     --session_name $your_session_name 
+   python contrast_train.py  \
+     --weights $pretrained_model \
+     --voc12_root VOC2012 \
+     --session_name $your_session_name \
      --batch_size $bs
    ```
 
